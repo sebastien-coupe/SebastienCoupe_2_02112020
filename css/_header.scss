@@ -1,0 +1,85 @@
+.header {
+    &__container {
+        @include max-md {
+            display: grid;
+            grid-template-columns: 2rem calc(50% - 2rem) calc(50% - 2rem) 2rem;
+            grid-template-rows: 8rem auto;
+        }
+
+        @include min-md {
+            display: flex;
+            align-items: stretch;
+            padding-right: 3rem;
+            padding-left: 3rem;
+        }
+    }
+
+    &__brand {
+        width: 9.6rem;
+        margin-bottom: 5px;
+        align-self: center;
+
+        @include max-md {
+            grid-column: 2 / 3;
+        }
+    }
+
+    &__subscription {
+        @include max-md {
+            grid-column: 3 / 4;
+            justify-self: end;
+            align-self: center;
+        }
+
+        @include min-md {
+            all: unset;
+            padding: 5rem 0 5rem 3.7rem;
+        }
+        
+        & .btn {
+            font-weight: bold;
+            color: $blue;
+        }
+    }
+
+    &__nav {
+        @include max-md {
+            grid-column: 1 / 5;
+            grid-row: 2 / 3;
+        }
+
+        @include min-md {
+            margin-left: auto;
+        }
+
+        li {
+            @include max-md {
+                display: block;
+                width: 50%;
+            }
+        }
+    }
+
+    &__link {
+        display: block;
+        text-align: center;
+
+        &:hover,
+        &:focus {
+            border-color: $blue;
+            color: $blue;
+        }
+
+        @include max-md {
+            padding-top: 1.2rem;
+            padding-bottom: 1.2rem;
+            border-bottom: 3px solid $gray;
+        }
+
+        @include min-md {
+            padding: calc(5rem - 3px) 3.7rem 5rem;
+            border-top: 3px solid transparent;
+        }
+    }
+
+}
