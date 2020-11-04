@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservia</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container header__container">
@@ -33,7 +36,8 @@
                 <form class="form form--sm">
                     <div class="controls controls--inline">
                         <label class="controls__prepend" for="location"><i class="fas fa-map-marker-alt"></i></label>
-                        <input class="controls__input" type="text" id="location" name="location" value="Marseille, France">
+                        <input class="controls__input" type="text" id="location" name="location"
+                            value="Marseille, France">
                         <button class="controls__append" type="submit">
                             <span class="sm-visible"><i class="fas fa-search"></i></span>
                             <span class="sm-hidden">Rechercher</span>
@@ -80,5 +84,212 @@
             </div>
         </div>
     </section>
+    <main>
+        <section id="accomodations" class="accomodations">
+            <div class="container accomodations__container">
+                <div class="accomodations__popular">
+                    <div class="flex flex-baseline flex-between">
+                        <h2 class="accomodations__title">Les plus populaires</h2>
+                        <div class="accomodations__icon">
+                            <i class="fas fa-chart-line fa-lg"></i>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <a class="card card--inline" href="#">
+                            <div class="card__header">
+                                <img src="assets/images/accomodations/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                    alt="" class="card__image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Hôtel Le soleil du matin</h3>
+                                <p class="card__body">Nuit à partir de <strong>128€</strong></p>
+                                <div class="card__footer">
+                                    <div data-rating="5">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="card card--inline" href="#">
+                            <div class="card__header">
+                                <img src="assets/images/accomodations/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                                    alt="" class="card__image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Au coeur de l'eau Chambre d'hôtes</h3>
+                                <p class="card__body">Nuit à partir de <strong>71€</strong></p>
+                                <div class="card__footer">
+                                    <div data-rating="4">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="card card--inline" href="#">
+                            <div class="card__header">
+                                <img src="assets/images/accomodations/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                                    alt="" class="card__image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Hôtel Tout bleu et Blanc</h3>
+                                <p class="card__body">Nuit à partir de <strong>68€</strong></p>
+                                <div class="card__footer">
+                                    <div data-rating="4">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="accomodations__city">
+                    <h2 class="accomodations__title">Hébergements à Marseille</h2>
+                    <div class="cards">
+                        <!-- First card -->
+                        <a class="card card--default" href="#">
+                            <div class="card__header">
+                                <img src="assets/images/accomodations/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                    alt="" class="card__image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Auberge la Cannebière</h3>
+                                <p class="card__body">Nuit à partir de <strong>25€</strong></p>
+                                <div class="card__footer">
+                                    <div data-rating="4">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- Second card -->
+                        <a class="card card--default" href="#">
+                            <div class="card__header">
+                                <img src="assets/images/accomodations/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                                    alt="" class="card__image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Hôtel du port</h3>
+                                <p class="card__body">Nuit à partir de <strong>52€</strong></p>
+                                <div class="card__footer">
+                                    <div data-rating="5">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- Third card -->
+                        <a class="card card--default" href="#">
+                            <div class="card__header">
+                                <img src="assets/images/accomodations/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                                    alt="" class="card__image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Hôtel Les mouettes</h3>
+                                <p class="card__body">Nuit à partir de <strong>76€</strong></p>
+                                <div class="card__footer">
+                                    <div data-rating="4">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- Fourth card -->
+                        <a class="card card--default" href="#">
+                            <div class="card__header">
+                                <img src="assets/images/accomodations/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                                    alt="" class="card__image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Hôtel de la mer</h3>
+                                <p class="card__body">Nuit à partir de <strong>46€</strong></p>
+                                <div class="card__footer">
+                                    <div data-rating="3">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- Fifth card -->
+                        <a class="card card--default" href="#">
+                            <div class="card__header">
+                                <img src="assets/images/accomodations/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                                    alt="" class="card__image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Auberge Le Panier</h3>
+                                <p class="card__body">Nuit à partir de <strong>23€</strong></p>
+                                <div class="card__footer">
+                                    <div data-rating="4">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- Sixth card -->
+                        <a class="card card--default" href="#">
+                            <div class="card__header">
+                                <img src="assets/images/accomodations/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                                    alt="" class="card__image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Hôtel chez Amina</h3>
+                                <p class="card__body">Nuit à partir de <strong>96€</strong></p>
+                                <div class="card__footer">
+                                    <div data-rating="5">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="accomodations__footer">
+                        <a href="#" class="accomodations__link">Afficher plus</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>

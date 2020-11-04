@@ -6,8 +6,14 @@
 
 .flex {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+
+    &-baseline {
+        align-items: baseline;
+    }
+
+    &-between {
+        justify-content: space-between;
+    }
 }
 
 .sm-visible {
@@ -21,5 +27,50 @@
 
     @include min-sm {
         display: initial;
+    }
+}
+
+/* Highlight 5 stars out of 5 */
+[data-rating="5"] {
+    & > .fa-star:nth-child(1),
+    & > .fa-star:nth-child(2),
+    & > .fa-star:nth-child(3),
+    & > .fa-star:nth-child(4),
+    & > .fa-star:nth-child(5) {
+        color: $blue;
+    }
+}
+
+/* Highlight 4 stars out of 5 */
+[data-rating="4"] {
+    & > .fa-star:nth-child(1),
+    & > .fa-star:nth-child(2),
+    & > .fa-star:nth-child(3),
+    & > .fa-star:nth-child(4) {
+        color: $blue;
+    }
+}
+
+/* Highlight 3 stars out of 5 */
+[data-rating="3"] {
+    & > .fa-star:nth-child(1),
+    & > .fa-star:nth-child(2),
+    & > .fa-star:nth-child(3) {
+        color: $blue;
+    }
+}
+
+/* Highlight 2 stars out of 5 */
+[data-rating="2"] {
+    & > .fa-star:nth-child(1),
+    & > .fa-star:nth-child(2) {
+        color: $blue;
+    }
+}
+
+/* Highlight 1 star out of 5 */
+[data-rating="1"] {
+    & > .fa-star:nth-child(1) {
+        color: $blue;
     }
 }
