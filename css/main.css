@@ -714,4 +714,46 @@ a {
         grid-template-rows: repeat(2, 192px);
   }
 }
+
+.footer {
+  background-color: #F2F2F2;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 4.6rem 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__container {
+    padding: 5rem 5rem 0;
+  }
+}
+
+.footer__list {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 360px;
+}
+
+.footer__list:not(:last-child) {
+  margin-bottom: 5rem;
+}
+
+.footer__title {
+  margin-top: 0;
+}
+
+.footer__links > li:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.footer__links a:hover {
+  color: #0065FC;
+}
 /*# sourceMappingURL=main.css.map */
