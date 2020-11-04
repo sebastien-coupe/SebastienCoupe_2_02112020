@@ -1,11 +1,23 @@
-@mixin min-sm {
+@mixin min-xs {
     @media screen and (min-width: 420px) {
         @content;
     }
 }
 
-@mixin max-sm {
+@mixin max-xs {
     @media screen and (max-width: 419px) {
+        @content;
+    }
+}
+
+@mixin min-sm {
+    @media screen and (min-width: 640px) {
+        @content;
+    }
+}
+
+@mixin max-sm {
+    @media screen and (max-width: 639px) {
         @content;
     }
 }

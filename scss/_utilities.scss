@@ -17,7 +17,7 @@
 }
 
 .sm-visible {
-    @include min-sm {
+    @include min-xs {
         display: none;
     }
 }
@@ -25,7 +25,7 @@
 .sm-hidden {
     display: none;
 
-    @include min-sm {
+    @include min-xs {
         display: initial;
     }
 }
