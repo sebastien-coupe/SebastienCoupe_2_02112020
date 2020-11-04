@@ -25,12 +25,16 @@ img {
     height: auto;
 }
 
+button,
+input {
+    font-family: inherit;
+    font-size: inherit;
+}
+
 button {
     padding: 0;
     border: none;
     background: none;
-    font-family: inherit;
-    font-size: inherit;
     cursor: pointer;
 }
 
