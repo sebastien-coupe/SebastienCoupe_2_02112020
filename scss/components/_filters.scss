@@ -1,0 +1,47 @@
+.filters {
+    &--inline {
+        display: flex;
+    }
+
+    &--wrap {
+        flex-wrap: wrap;
+    }
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    margin: 0.6rem 1rem 0.6rem 0;
+    border: 2px solid $gray-dark;
+    cursor: pointer;
+
+    @include min-md {
+        margin: 1.2rem 2.4rem 1.2rem 0;
+    }
+
+    &--rounded {
+        border-radius: 10rem;
+    }
+
+    &__icon--circle {
+        display: flex;
+        width: 5rem;
+        height: 5rem;
+        justify-content:center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: $blue-light;
+        color: $blue;
+        font-size: 1.8rem;
+    }
+
+    &__label {
+        padding-right: 2rem;
+        padding-left: 2rem;
+        font-weight: bold;
+
+        @include min-md {
+            font-size: 1.8rem;
+        }
+    }
+}

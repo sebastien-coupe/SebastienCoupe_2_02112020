@@ -1,0 +1,21 @@
+.alert {
+    display: flex;
+
+    &__icon--circle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 2.4rem;
+        height: 2.4rem;
+        border: 1px solid $gray-dark;
+        border-radius: 50%;
+        font-size: 1.2rem;
+        color: $blue;
+    }
+
+    &__message {
+        margin-top: 4px;
+        margin-left: 1rem;
+    }
+}

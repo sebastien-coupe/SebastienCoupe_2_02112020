@@ -1,0 +1,14 @@
+.alert {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.alert__icon--circle {
+  display: inline-block;
+  width: 2.4rem;
+  height: 2.4rem;
+  border: 2px solid red;
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=alerts.css.map */
