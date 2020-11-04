@@ -1,0 +1,50 @@
+.form {
+    &--sm {
+        max-width: 420px;
+    }
+}
+
+.controls {
+    &--inline {
+        position: relative;
+    }
+
+    &__prepend,
+    &__append {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        padding: 1.6rem;
+    }
+
+    &__prepend {
+        left: 0;
+        border-radius: 1.2rem 0 0 1.2rem;
+        background-color: $gray;
+    }
+
+    &__append {
+        right: 0;
+        border-radius: 0 1.2rem 1.2rem 0;
+        background-color: $blue;
+        color: white;
+        font-weight: bold;
+
+        @include max-sm {
+            border-top-left-radius: 1.2rem;
+            border-bottom-left-radius: 1.2rem;
+        }
+    }
+
+    &__input {
+        width: 100%;
+        padding: 1.2rem 5rem;
+        border-top: 2px solid $gray;
+        border-bottom: 2px solid $gray;
+        border-radius: 10rem;
+        font-weight: bold;
+    }
+}

@@ -9,3 +9,17 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
+.sm-visible {
+    @include min-sm {
+        display: none;
+    }
+}
+
+.sm-hidden {
+    display: none;
+
+    @include min-sm {
+        display: initial;
+    }
+}

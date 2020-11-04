@@ -30,7 +30,16 @@
             <h1 class="lead__title">Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
             <div class="lead__form">
-                <!-- Search form goes here -->
+                <form class="form form--sm">
+                    <div class="controls controls--inline">
+                        <label class="controls__prepend" for="location"><i class="fas fa-map-marker-alt"></i></label>
+                        <input class="controls__input" type="text" id="location" name="location" value="Marseille, France">
+                        <button class="controls__append" type="submit">
+                            <span class="sm-visible"><i class="fas fa-search"></i></span>
+                            <span class="sm-hidden">Rechercher</span>
+                        </button>
+                    </div>
+                </form>
             </div>
             <div class="lead__filters">
                 <h2>Filtres</h2>

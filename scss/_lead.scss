@@ -18,5 +18,17 @@
 
     &__form {
         margin-top: 3.6rem;
+
+        @include min-md {
+            margin-top: 2.2rem;
+        }
+    }
+
+    &__filters {
+        margin-top: 3.6rem;
+
+        @include min-md {
+            margin-top: 2.2rem;
+        }
     }
 }

@@ -62,6 +62,76 @@ a {
       flex-wrap: wrap;
 }
 
+@media screen and (min-width: 420px) {
+  .sm-visible {
+    display: none;
+  }
+}
+
+.sm-hidden {
+  display: none;
+}
+
+@media screen and (min-width: 420px) {
+  .sm-hidden {
+    display: initial;
+  }
+}
+
+.form--sm {
+  max-width: 420px;
+}
+
+.controls--inline {
+  position: relative;
+}
+
+.controls__prepend, .controls__append {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 1.6rem;
+}
+
+.controls__prepend {
+  left: 0;
+  border-radius: 1.2rem 0 0 1.2rem;
+  background-color: #F2F2F2;
+}
+
+.controls__append {
+  right: 0;
+  border-radius: 0 1.2rem 1.2rem 0;
+  background-color: #0065FC;
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 419px) {
+  .controls__append {
+    border-top-left-radius: 1.2rem;
+    border-bottom-left-radius: 1.2rem;
+  }
+}
+
+.controls__input {
+  width: 100%;
+  padding: 1.2rem 5rem;
+  border-top: 2px solid #F2F2F2;
+  border-bottom: 2px solid #F2F2F2;
+  border-radius: 10rem;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 767px) {
   .header__container {
     display: -ms-grid;
@@ -199,5 +269,21 @@ a {
 
 .lead__form {
   margin-top: 3.6rem;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__form {
+    margin-top: 2.2rem;
+  }
+}
+
+.lead__filters {
+  margin-top: 3.6rem;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__filters {
+    margin-top: 2.2rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
