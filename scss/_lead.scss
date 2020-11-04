@@ -5,6 +5,10 @@
         @include min-md {
             padding-top: 0;
         }
+
+        @include min-lg {
+            padding: 0 5rem 5rem 5rem;
+        }
     }
 
     &__title {
