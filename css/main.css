@@ -29,6 +29,7 @@ img {
 
 button,
 input {
+  outline: none;
   font-family: inherit;
   font-size: inherit;
 }
