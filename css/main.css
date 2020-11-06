@@ -541,7 +541,7 @@ a {
   text-align: center;
 }
 
-.header__link:hover, .header__link:focus {
+.header__link:hover, .header__link.active {
   border-color: #0065FC;
   color: #0065FC;
 }

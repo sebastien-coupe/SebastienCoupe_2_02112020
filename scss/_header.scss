@@ -74,7 +74,7 @@
         text-align: center;
 
         &:hover,
-        &:focus {
+        &.active {
             border-color: $blue;
             color: $blue;
         }
