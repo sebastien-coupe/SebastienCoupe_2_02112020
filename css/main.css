@@ -335,7 +335,7 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 1rem 1.5rem 0.5rem;
+  padding: 1rem 1.2rem 0.5rem;
 }
 
 .card__title {
@@ -434,7 +434,7 @@ a {
 }
 
 .card--fluid .card__title {
-  padding: 1.2rem;
+  padding: 1.6rem 1.2rem calc(1.6rem - 4px);
 }
 
 @media screen and (max-width: 767px) {
