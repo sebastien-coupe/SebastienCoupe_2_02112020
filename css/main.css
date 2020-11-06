@@ -508,6 +508,10 @@ a {
   color: #0065FC;
 }
 
+.header__subscription .btn:hover {
+  color: black;
+}
+
 @media screen and (max-width: 767px) {
   .header__nav {
     -ms-grid-column: 1;

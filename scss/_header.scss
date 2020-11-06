@@ -44,6 +44,10 @@
         & .btn {
             font-weight: bold;
             color: $blue;
+
+            &:hover {
+                color: black;
+            }
         }
     }
 
