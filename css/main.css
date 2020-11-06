@@ -269,6 +269,16 @@ a {
   }
 }
 
+.filter:hover {
+  background-color: #DEEBFF;
+  color: #0065FC;
+}
+
+.filter:hover .filter__icon--circle {
+  background-color: #0065FC;
+  color: white;
+}
+
 .cards {
   display: -webkit-box;
   display: -ms-flexbox;

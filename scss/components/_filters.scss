@@ -44,4 +44,14 @@
             font-size: 1.8rem;
         }
     }
+
+    &:hover {
+        background-color: $blue-light;
+        color: $blue;
+
+        .filter__icon--circle {
+            background-color: $blue;
+            color: white;
+        }
+    }
 }
