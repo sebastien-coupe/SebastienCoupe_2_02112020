@@ -276,6 +276,7 @@ a {
 
 .filter:hover {
   background-color: #DEEBFF;
+  border-color: #0065FC;
   color: #0065FC;
 }
 
