@@ -753,6 +753,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: flex-between;
+      -ms-flex-pack: flex-between;
+          justify-content: flex-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 4.6rem 3rem;
@@ -768,7 +771,7 @@ a {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  min-width: 360px;
+  min-width: 260px;
 }
 
 .footer__list:not(:last-child) {
