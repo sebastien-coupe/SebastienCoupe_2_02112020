@@ -190,6 +190,11 @@ a {
   font-weight: bold;
 }
 
+.controls__append:hover {
+  background-color: #DEEBFF;
+  color: #0065FC;
+}
+
 @media screen and (max-width: 419px) {
   .controls__append {
     border-top-left-radius: 1.2rem;
