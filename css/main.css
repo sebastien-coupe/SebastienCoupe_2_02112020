@@ -86,6 +86,10 @@ a {
   }
 }
 
+.hidden {
+  display: none;
+}
+
 /* Highlight 5 stars out of 5 */
 [data-rating="5"] > .fa-star:nth-child(1),
 [data-rating="5"] > .fa-star:nth-child(2),
