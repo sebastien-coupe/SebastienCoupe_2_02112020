@@ -51,5 +51,10 @@
         border-bottom: 2px solid $gray;
         border-radius: 10rem;
         font-weight: bold;
+
+        &::placeholder {
+            color: black;
+            opacity: 1;
+        }
     }
 }

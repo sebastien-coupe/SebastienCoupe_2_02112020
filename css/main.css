@@ -211,6 +211,26 @@ a {
   font-weight: bold;
 }
 
+.controls__input::-webkit-input-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+.controls__input:-ms-input-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+.controls__input::-ms-input-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+.controls__input::placeholder {
+  color: black;
+  opacity: 1;
+}
+
 .filters--inline {
   display: -webkit-box;
   display: -ms-flexbox;
