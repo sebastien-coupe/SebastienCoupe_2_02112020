@@ -716,6 +716,10 @@ a {
   font-weight: bold;
 }
 
+.accomodations__link:hover {
+  color: #0065FC;
+}
+
 .activities__container {
   padding: 0 2rem 5rem 2rem;
 }
