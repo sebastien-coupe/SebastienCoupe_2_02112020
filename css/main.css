@@ -520,7 +520,6 @@ a {
 @media screen and (min-width: 768px) {
   .header__subscription {
     all: unset;
-    padding: 5rem 0 5rem 3.4rem;
   }
 }
 
@@ -530,7 +529,14 @@ a {
 }
 
 .header__subscription .btn:hover {
-  color: black;
+  border-color: #0065FC;
+}
+
+@media screen and (min-width: 768px) {
+  .header__subscription .btn {
+    padding: calc(5rem - 3px) 3.4rem 5rem;
+    border-top: 3px solid transparent;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -562,7 +568,7 @@ a {
   text-align: center;
 }
 
-.header__link:hover, .header__link.active {
+.header__link:hover {
   border-color: #0065FC;
   color: #0065FC;
 }
