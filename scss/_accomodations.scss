@@ -26,7 +26,14 @@
 
         @include min-lg {
             grid-column: 2 / 3;
+            align-self: start;
         }
+
+        @include min-xl {
+            align-self: initial;
+        }
+
+        
     }
 
     &__city {
