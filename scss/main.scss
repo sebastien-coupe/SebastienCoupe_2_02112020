@@ -1,15 +1,16 @@
-@import 'base';
-@import 'variables';
-@import 'mixins';
-@import 'utilities';
+@import 'base/reset';
+
+@import 'utils/variables';
+@import 'utils/mixins';
+@import 'utils/helpers';
 
 @import 'components/alerts';
 @import 'components/forms';
 @import 'components/filters';
 @import 'components/cards';
 
-@import 'header';
-@import 'lead';
-@import 'accomodations';
-@import 'activities';
-@import 'footer';
+@import 'layout/header';
+@import 'layout/lead';
+@import 'layout/accomodations';
+@import 'layout/activities';
+@import 'layout/footer';
