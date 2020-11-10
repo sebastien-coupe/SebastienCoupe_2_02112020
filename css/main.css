@@ -269,6 +269,7 @@ a {
   border-radius: 2rem;
   background-color: white;
   overflow: hidden;
+  border: 4px solid transparent;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   transition: transform 0.2s ease-in-out;
   /* Vertically oriented cards (= default) */
@@ -311,7 +312,6 @@ a {
 .card--default {
   flex: 1;
   min-width: 245px;
-  border: 4px solid transparent;
 }
 
 .card--default .card__header {
@@ -329,7 +329,6 @@ a {
   height: 145px;
   min-width: 280px;
   max-width: 960px;
-  border: 4px solid transparent;
 }
 
 .card--inline .card__header {
