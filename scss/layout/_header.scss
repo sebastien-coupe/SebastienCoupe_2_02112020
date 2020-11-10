@@ -35,10 +35,6 @@
             justify-self: end;
             align-self: center;
         }
-
-        @include min-md {
-            all: unset;
-        }
         
         & .btn {
             font-weight: bold;
